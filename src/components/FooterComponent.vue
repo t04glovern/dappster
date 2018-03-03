@@ -1,6 +1,6 @@
 <template>
   <footer class="ui four item stackable menu">
-    <a target="_blank" href="https://etherscan.io/address/0xa25e8050f80ee99a17e861cd0931d5d362caa34e" class="item item-1">
+    <a target="_blank" href="https://etherscan.io/address/0x7F2B1d5133053F9CC5B750d2245dB607233A770d" class="item item-1">
       <i class="fa fa-file"></i>
       Contract
     </a>
@@ -8,11 +8,11 @@
       <i class="fa fa-question"></i>
       FAQ
     </router-link>
-    <a href="mailto:admin@gamecard.co" class="item item-3">
+    <a href="mailto:admin@dappster.space" class="item item-3">
       <i class="fa fa-envelope"></i>
       Contact
     </a>
-    <a target="_blank" href="https://github.com/fluffycatware/gamecards" class="item item-4">
+    <a target="_blank" href="https://github.com/t04glovern/dappster" class="item item-4">
       <i class="fab fa-github"></i>
       Github
     </a>
