@@ -55,7 +55,7 @@
         </div>
       </div>
       <div v-if="accountCards.length > 0" class="ui container">
-        <div class="ui link four stackable cards">
+        <div class="ui link four cards responsive-cards">
           <card v-for="card in accountCards" :key="card.id" :index="card.id"></card>
         </div>
       </div>

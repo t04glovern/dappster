@@ -8,7 +8,7 @@
       <a href="/static/card-template.png">here</a>
     </div>
     <!-- Cards -->
-    <div v-if="cardsLoaded" class="ui link four stackable cards">
+    <div v-if="cardsLoaded" class="ui link cards responsive-cards">
       <card v-for="i in cardsList.length" :key="i" :index="i"></card>
     </div>
     <!-- Wrong network -->
