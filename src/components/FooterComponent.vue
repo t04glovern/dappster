@@ -1,5 +1,5 @@
 <template>
-  <footer class="ui four item stackable menu">
+  <footer class="ui five item stackable menu">
     <a target="_blank" href="https://etherscan.io/address/0x7F2B1d5133053F9CC5B750d2245dB607233A770d" class="item item-1">
       <i class="fa fa-file"></i>
       Contract
@@ -15,6 +15,10 @@
     <a target="_blank" href="https://github.com/t04glovern/dappster" class="item item-4">
       <i class="fab fa-github"></i>
       Github
+    </a>
+    <a target="_blank" href="https://discord.gg/MmzztjJ" class="item item-5">
+      <i class="fab fa-discord"></i>
+      Discord
     </a>
   </footer>
 </template>
@@ -53,6 +57,9 @@ export default {
 }
 .item-4:hover {
   background-color: #5DA086 !important;
+}
+.item-5:hover {
+  background-color: #254035 !important;
 }
 /*
 a:hover {

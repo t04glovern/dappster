@@ -2,6 +2,11 @@
   <div class="ui container">
     <!-- Loader -->
     <loader v-if="!cardsLoaded && !networkUnknown" />
+    <!-- Dappster Details -->
+    <div class="ui segment center aligned">
+      Advertise your <b>ÐApps</b> by purchasing card realestate. <br>Once you own a card <b>you</b> control its resell value and what it displays! Download our card template
+      <a href="/static/card-template.png">here</a>
+    </div>
     <!-- Cards -->
     <div v-if="cardsLoaded" class="ui link four stackable cards">
       <card v-for="i in cardsList.length" :key="i" :index="i"></card>
