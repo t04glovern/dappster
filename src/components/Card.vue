@@ -234,11 +234,4 @@ export default {
 .orange-hover:hover {
   background-color: rgba(242, 113, 28, 0.2);
 }
-@media only screen and (max-width: 767px) {
-  .ui.card {
-    max-width: 280px;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-}
 </style>
