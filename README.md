@@ -25,7 +25,7 @@ npm install -g truffle
 
 Then to use truffle run the following:
 
-``` bash
+```bash
 # Run node
 truffle develop
 
@@ -39,10 +39,9 @@ truffle migrate
 truffle migrate --network ropsten
 ```
 
-
 ## Test
 
-``` bash
+```bash
 # Run truffle test
-truffle test ./test/gamecards.js --network test
+truffle test ./test/dappster.js --network test
 ```
