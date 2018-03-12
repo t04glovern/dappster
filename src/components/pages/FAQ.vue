@@ -49,7 +49,7 @@
         How it works ?
       </h2>
       <p>ÐAppster let you <router-link :to="{ name: 'FAQ', hash: '#buy-card' }" >buy</router-link>, <router-link :to="{ name: 'FAQ', hash: '#lease-card' }" >lease</router-link> and <router-link :to="{ name: 'FAQ', hash: '#sell-card' }" >sell</router-link> cards.
-      ÐAppster homepage is filled with cards ranked from 1 to 100. Each card is sold at a price related to its rank, the card #1 is initially sold at 1 Ether and card #100 is set at 0.01 Ether.
+      ÐAppster homepage is filled with cards ranked from 1 to 100. Each card is sold at a price related to its rank, the card #1 is initially sold at 0.1 Ether and card #100 is set at 0.001 Ether.
       A card is made from a descriptive title, a redirection URL and an image set by the card owner.
       For each card sold during the initial sale, <b>10% of the amount is reversed to <router-link :to="{ name: 'FAQ', hash: '#what-is-fluffycat' }" >FluffyCat</router-link></b> !
       </p>
